@@ -3,7 +3,9 @@ import RoutesMenus from '@/routes/index'
 
 function App() {
   return (
-    <RoutesMenus></RoutesMenus>
+    <div>
+      <RoutesMenus></RoutesMenus>
+    </div>
   );
 }
 

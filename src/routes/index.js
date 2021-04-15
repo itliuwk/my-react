@@ -5,6 +5,7 @@ import {
   Redirect
 } from 'react-router-dom'
 import menus from './config'
+import Header from '@/components/header'
 
 
 function getChildren(arr, newarr) {
@@ -44,6 +45,7 @@ const RoutesMenus = () => {
   return (
     <Suspense fallback={<div></div>}>
       <Router>
+        <Header />
         {newMenus.map((route, index) => <RouteWithSubRoutes key={index} {...route} />)}
       </Router>
     </Suspense>
