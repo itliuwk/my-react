@@ -18,14 +18,6 @@ const nav = [
     }
   },
   {
-    name: '排行榜',
-    path: '/rank',
-    component: lazy(() => import('@/views/rank')),
-    meta: {
-      title: '排行榜'
-    }
-  },
-  {
     name: '在线工具',
     path: '/tools',
     component: lazy(() => import('@/views/tools')),

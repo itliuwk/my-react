@@ -32,8 +32,8 @@ export const getLsCreate = () => {
   return {
     type: CRAWLING_LS_CREATE,
     async payload() {
-      let list = await fetchLsCreate()
-      return list
+      await fetchLsCreate()
+      return {}
     }
   }
 }
@@ -42,8 +42,8 @@ export const getLsCreateUpdate = () => {
   return {
     type: CRAWLING_LS_CREATE_UPDATE,
     async payload() {
-      let list = await fetchLsCreateUpdate()
-      return list
+      await fetchLsCreateUpdate()
+      return {}
     }
   }
 }
@@ -52,8 +52,8 @@ export const getLsAllDelete = () => {
   return {
     type: CRAWLING_ALL_DELTE,
     async payload() {
-      let list = await fetchLsAllDelete()
-      return list
+      await fetchLsAllDelete()
+      return {}
     }
   }
 }
@@ -62,8 +62,8 @@ export const getLsListCreate = (params) => {
   return {
     type: CRAWLING_LS_LIST_CREATE,
     async payload() {
-      let list = await fetchLsListCreate(params)
-      return list
+      await fetchLsListCreate(params)
+      return {}
     }
   }
 }
@@ -72,8 +72,8 @@ export const getNavCreate = () => {
   return {
     type: CRAWLING_NAV_CREATE,
     async payload() {
-      let list = await fetchNavCreate()
-      return list
+      await fetchNavCreate()
+      return {}
     }
   }
 }
@@ -82,8 +82,8 @@ export const getToolsCreate = () => {
   return {
     type: CRAWLING_TOOLS_CREATE,
     async payload() {
-      let list = await fetchToolsCreate()
-      return list
+      await fetchToolsCreate()
+      return {}
     }
   }
 }
