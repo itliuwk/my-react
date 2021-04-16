@@ -1,7 +1,7 @@
 
 
 import React, { Component } from 'react'
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import './index.less'
 import menus from '@/routes/nav'
@@ -26,7 +26,7 @@ class Header extends Component {
     return (
       <header className='header'>
         <div className='nav'>
-          <a href="/" class="logo">
+          <a href="/" className="logo">
             <img src="//static.daohangtx.com/static/img/logo.png" alt="" />
           </a>
           <div className='nav-content'>
@@ -36,9 +36,9 @@ class Header extends Component {
               )
             })}
           </div>
-          <div class="time-winter">
-            <div class="time"><span>04</span> <small>月</small> <span>14</span> <small>16:28:31 周三</small></div>
-            <a class="winter" href="/html/article/82330.html">
+          <div className="time-winter">
+            <div className="time"><span>04</span> <small>月</small> <span>14</span> <small>16:28:31 周三</small></div>
+            <a className="winter" href="/html/article/82330.html">
               加入官方Q群<img src="//static.daohangtx.com/static/img/qq.png" alt="" />
             </a>
           </div>
