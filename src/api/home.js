@@ -1,1 +1,1 @@
-export const upd_page = '/api/upd_page.html'
+export const upd_page = '/api/home'

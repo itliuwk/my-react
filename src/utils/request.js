@@ -5,7 +5,7 @@ import { message } from 'antd';
 
 
 axios.defaults = {
-  baseURL: 'https://www.daohangtx.com',
+  baseURL: 'http://api.react.sxitw.cn:3000/',
   timeout: 5000
 }
 

@@ -158,7 +158,7 @@
     ],
     "resetMocks": true
   },
-  "proxy": "https://www.daohangtx.com",
+  "proxy": "http://api.react.sxitw.cn:3000/",
   "babel": {
     "presets": [
       "react-app"

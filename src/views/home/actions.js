@@ -1,10 +1,10 @@
 import { HOME_STATUS } from '../../constants/home'
 import { upd_page } from '@/api/home'
-import { POST } from '@/utils/request'
+import { GET } from '@/utils/request'
 
 
 export function fetchCartList(params) {
-  return POST(upd_page, params).then(res => res)
+  return GET(upd_page, params).then(res => res)
 }
 
 export const getHomeList = (params) => {
