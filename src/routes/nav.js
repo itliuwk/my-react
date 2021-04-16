@@ -6,7 +6,7 @@ const nav = [
     path: '/home',
     component: lazy(() => import('@/views/home')),
     meta: {
-      name: '首页'
+      title: '首页'
     }
   },
   {
@@ -14,7 +14,7 @@ const nav = [
     path: '/ls',
     component: lazy(() => import('@/views/ls')),
     meta: {
-      name: '分类'
+      title: '分类'
     }
   },
   {
@@ -22,7 +22,7 @@ const nav = [
     path: '/rank',
     component: lazy(() => import('@/views/rank')),
     meta: {
-      name: '排行榜'
+      title: '排行榜'
     }
   },
   {
@@ -30,7 +30,7 @@ const nav = [
     path: '/tools',
     component: lazy(() => import('@/views/tools')),
     meta: {
-      name: '在线工具'
+      title: '在线工具'
     }
   },
   {
@@ -38,7 +38,7 @@ const nav = [
     path: '/update',
     component: lazy(() => import('@/views/update')),
     meta: {
-      name: '最近更新'
+      title: '最近更新'
     }
   }
 ]
