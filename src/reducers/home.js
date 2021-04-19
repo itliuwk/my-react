@@ -1,7 +1,8 @@
-import { HOME_STATUS_FULFILLED } from '../constants/home'
+import { HOME_STATUS_FULFILLED, HOME_NAV_FULFILLED } from '../constants/home'
 
 const HOME = {
-  listData: []
+  listData: [],
+  navData: []
 }
 
 export default function home(state = HOME, { type, payload }) {
@@ -10,6 +11,12 @@ export default function home(state = HOME, { type, payload }) {
       return {
         ...state,
         listData: payload,
+      }
+
+    case HOME_NAV_FULFILLED:
+      return {
+        ...state,
+        navData: payload,
       }
 
     default:

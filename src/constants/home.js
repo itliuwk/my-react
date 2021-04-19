@@ -1,2 +1,6 @@
 export const HOME_STATUS = 'HOME_STATUS'
 export const HOME_STATUS_FULFILLED = 'HOME_STATUS_FULFILLED'
+
+
+export const HOME_NAV = 'HOME_NAV'
+export const HOME_NAV_FULFILLED = 'HOME_NAV_FULFILLED'

@@ -46,7 +46,9 @@ const RoutesMenus = () => {
     <Suspense fallback={<div></div>}>
       <Router>
         <Header />
-        {newMenus.map((route, index) => <RouteWithSubRoutes key={index} {...route} />)}
+        <article>
+          {newMenus.map((route, index) => <RouteWithSubRoutes key={index} {...route} />)}
+        </article>
       </Router>
     </Suspense>
   )

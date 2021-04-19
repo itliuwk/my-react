@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
 body {
   margin: 0;
@@ -6,6 +6,7 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f9f9f9;
 }
 
 code {
@@ -16,4 +17,42 @@ code {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style: none;
+}
+
+article {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  min-height: 0px;
+  background-clip: content-box;
+  box-shadow: 0 0 0 5px rgb(100 100 100 / 80%) inset;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  height: 100px; 
+  border: 0px solid transparent;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 1px 1px 5px rgb(100 100 100 / 20%) inset;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  border: 0px solid transparent;
 }
